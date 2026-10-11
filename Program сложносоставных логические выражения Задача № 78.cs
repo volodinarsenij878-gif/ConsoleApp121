@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Program78
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            bool result = (4 ^ 4) == 0 && (4 ^ 0) == 4 && (0 ^ 0) == 0;
+            Console.WriteLine(result); // True
+        }
+    }
+}
+
